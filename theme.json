@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {},
+  "styles": {},
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Header"
+    },
+    {
+      "area": "footer",
+      "name": "footer",
+      "title": "Footer"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "page-full-width",
+      "title": "Page full width, without title",
+      "postTypes": ["page"]
+    }
+  ]
+}
