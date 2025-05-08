@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true,
+      "units": ["px", "rem", "vh", "%"],
+      "customSpacingSize": false,
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "name": "Très très petit",
+          "slug": "xxs",
+          "size": "0.5rem"
+        },
+        {
+          "name": "Très petit",
+          "slug": "xs",
+          "size": "1rem"
+        },
+        {
+          "name": "Petit",
+          "slug": "s",
+          "size": "1.6rem"
+        },
+        {
+          "name": "Moyen",
+          "slug": "m",
+          "size": "3.2rem"
+        },
+        {
+          "name": "Grand",
+          "slug": "l",
+          "size": "4.8rem"
+        },
+        {
+          "name": "Très grand",
+          "slug": "xl",
+          "size": "6.4rem"
+        }
+      ]
+    }
+  }
+}
