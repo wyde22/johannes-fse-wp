@@ -114,9 +114,23 @@
         {
           "name": "Z=3",
           "slug": "z3",
-          "shadow": "0px 20px 24px -4px rgba(65, 75, 90, 0.15)"
+          "shadow": "0px 4px 4px 0px rgba(0, 0, 0, 0.25)"
         }
       ]
-    }
+    },
+    "custom": {
+      "fontWeight": {
+        "regular": 400,
+        "semibold": 600,
+        "bold": 700,
+        "extrabold": 800
+      },
+      "lineHeight": {
+        "narrow": 1.25,
+        "regular": 1.5,
+        "large": 2.25
+      }
+    },
+    "blocks": {}
   }
 }

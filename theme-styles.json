@@ -1,5 +1,25 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
-  "styles": {}
+  "styles": {
+    "color": {
+      "text": "var:preset|color|johannes-grays-100",
+      "background": "var:preset|color|johannes-grays-0"
+    },
+    "spacing": {
+      "blockGap": "var:preset|spacing|small",
+      "padding": {
+        "top": "0",
+        "right": "var:preset|spacing|small",
+        "bottom": "0",
+        "left": "var:preset|spacing|small"
+      }
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|primary",
+      "fontSize": "var:preset|font-size|p-huge",
+      "fontWeight": "var:custom|font-weight|regular",
+      "lineHeight": "var:custom|line-height|regular"
+    }
+  }
 }
