@@ -6,39 +6,59 @@
       "margin": true,
       "padding": true,
       "blockGap": true,
-      "units": ["px", "rem", "vh", "%"],
+      "units": ["rem"],
       "customSpacingSize": false,
       "defaultSpacingSizes": false,
       "spacingSizes": [
         {
-          "name": "Très très petit",
-          "slug": "xxs",
+          "name": "Micro",
+          "slug": "micro",
+          "size": "0.25rem"
+        },
+        {
+          "name": "Tiny",
+          "slug": "tiny",
           "size": "0.5rem"
         },
         {
-          "name": "Très petit",
-          "slug": "xs",
+          "name": "Small",
+          "slug": "small",
+          "size": "0.75rem"
+        },
+        {
+          "name": "Base",
+          "slug": "base",
           "size": "1rem"
         },
         {
-          "name": "Petit",
-          "slug": "s",
-          "size": "1.6rem"
+          "name": "Medium",
+          "slug": "medium",
+          "size": "1.5rem"
         },
         {
-          "name": "Moyen",
-          "slug": "m",
-          "size": "3.2rem"
+          "name": "Large",
+          "slug": "large",
+          "size": "2rem"
         },
         {
-          "name": "Grand",
-          "slug": "l",
-          "size": "4.8rem"
+          "name": "X-Large",
+          "slug": "xlarge",
+          "size": "2.5rem"
         },
         {
-          "name": "Très grand",
-          "slug": "xl",
-          "size": "6.4rem"
+          "name": "2X-Large",
+          "slug": "2xlarge",
+          "size": "4.5rem"
+        },
+        {
+          "name": "3X-Large",
+          "slug": "3xlarge",
+          "size": "7.5rem"
+        },
+        {
+          "name": "4X-Large",
+          "slug": "4xlarge",
+          "size": "10rem"
         }
       ]
     }
