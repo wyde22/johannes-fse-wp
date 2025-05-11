@@ -1,5 +1,90 @@
 {
   "$schema": "https://schemas.wp.org/trunk/theme.json",
   "version": 3,
-  "settings": {}
+  "settings": {
+    "typography": {
+      "dropCap": false,
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "lineHeight": false,
+      "textAlign": false,
+      "textColumns": false,
+      "textDecoration": false,
+      "textTransform": true,
+      "writingMode": false,
+      "customFontSize": false,
+      "defaultFontSizes": false,
+      "fluid": true,
+      "fontSizes": [
+        {
+          "name": "P small",
+          "slug": "p-small",
+          "size": "0.8125rem"
+        },
+        {
+          "name": "P default",
+          "slug": "p-default",
+          "size": "1.125rem"
+        },
+        {
+          "name": "P large",
+          "slug": "p-large",
+          "size": "1.125rem"
+        },
+        {
+          "name": "XS",
+          "slug": "xs",
+          "size": "1rem"
+        },
+        {
+          "name": "S",
+          "slug": "s",
+          "size": "1.3rem"
+        },
+        {
+          "name": "M",
+          "slug": "m",
+          "size": "1.75rem"
+        },
+        {
+          "name": "L",
+          "slug": "l",
+          "size": "2.625rem"
+        },
+        {
+          "name": "P huge",
+          "slug": "p-huge",
+          "size": "1.5rem"
+        },
+        {
+          "name": "XL",
+          "slug": "xl",
+          "size": "3.5rem"
+        },
+        {
+          "name": "XXL",
+          "slug": "xxl",
+          "size": "4.5rem"
+        }
+      ],
+      "fontFamilies": [
+        {
+          "fontFamily": "'Lexend', sans-serif",
+          "name": "Lexend",
+          "slug": "primary",
+          "fontFace": [
+            {
+              "fontFamily": "Lexend",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "fontDisplay": "swap",
+              "fontWeight": "100 900",
+              "src": ["file:./assets/fonts/lexend/lexend.woff2"]
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
