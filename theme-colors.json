@@ -5,36 +5,59 @@
     "color": {
       "palette": [
         {
-          "slug": "primary",
-          "color": "#0073aa",
-          "name": "Primary"
+          "slug": "wordpress-blue-100",
+          "color": "#117AC9",
+          "name": "WordPress Blue 100"
         },
         {
-          "slug": "secondary",
-          "color": "#005177",
-          "name": "Secondary"
+          "slug": "wordpress-blue-50",
+          "color": "#5DB2F2",
+          "name": "WordPress Blue 50"
         },
         {
-          "slug": "background",
-          "color": "#ffffff",
-          "name": "Background"
+          "slug": "wordpress-blue-20",
+          "color": "#ADDCFF",
+          "name": "WordPress Blue 25"
         },
         {
-          "slug": "foreground",
-          "color": "#333333",
-          "name": "Foreground"
+          "slug": "wordpress-blue-10",
+          "color": "#E8F5FF",
+          "name": "WordPress Blue 10"
+        },
+        {
+          "slug": "johannes-grays-100",
+          "color": "#414B5A",
+          "name": "Johannes Grays 100"
+        },
+        {
+          "slug": "johannes-grays-75",
+          "color": "#7E8C9F",
+          "name": "Johannes Grays 75"
+        },
+        {
+          "slug": "johannes-grays-50",
+          "color": "#CDDCDF",
+          "name": "Johannes Grays 50"
+        },
+        {
+          "slug": "johannes-grays-25",
+          "color": "#DCEAED",
+          "name": "Johannes Grays 25"
+        },
+        {
+          "slug": "johannes-grays-10",
+          "color": "#EFF5F7",
+          "name": "Johannes Grays 10"
+        },
+        {
+          "slug": "johannes-grays-0",
+          "color": "#FFFFFF",
+          "name": "Johannes Grays 0"
         }
       ],
-      "gradients": [
-        {
-          "slug": "primary-to-secondary",
-          "gradient": "linear-gradient(135deg, #0073aa 0%, #005177 100%)",
-          "name": "Primary to Secondary"
-        }
-      ],
-      "custom": true,
-      "customGradient": true,
-      "defaultGradients": true,
+      "custom": false,
+      "customGradient": false,
+      "defaultGradients": false,
       "defaultPalette": false
     }
   }
