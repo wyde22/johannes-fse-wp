@@ -1,3 +1,37 @@
 /*
  * custom css styles
  */
+
+ @media screen and (max-width: 1440px) {
+
+	/* reorder header navigation */
+	.is-layout-flex .wp-block-site-title {
+			order: 1;
+	}
+
+	/* Navigation */
+	.wp-block-navigation {
+			order: 3;
+			margin-left: auto;
+			justify-content: flex-end;
+	}
+
+	.is-content-justification-right {
+			order: 2;
+			visibility: hidden;
+	}
+
+}
+
+/* display breakpoint hamburger menu to 1000px */
+@media (max-width: 1000px) {
+	.wp-block-navigation__responsive-container-open:not(.always-shown) {
+			display: flex !important;
+	}
+
+	.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+		display: none;
+		position: relative;
+  }
+
+}

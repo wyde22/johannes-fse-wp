@@ -5,9 +5,19 @@
   "styles": {},
   "templateParts": [
     {
-      "area": "header",
-      "name": "header",
-      "title": "Header"
+      "area": "header-social-network",
+      "name": "header-social-network",
+      "title": "Header Social Network"
+    },
+    {
+      "area": "header-search",
+      "name": "header-search",
+      "title": "Header Search"
+    },
+    {
+      "area": "header-search-cta",
+      "name": "header-search-cta",
+      "title": "Header Search CTA"
     },
     {
       "area": "footer",
