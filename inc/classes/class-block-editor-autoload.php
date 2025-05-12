@@ -21,7 +21,7 @@ class BlockEditorAutoload
 					wp_enqueue_block_style(
 							$block_name,
 							[
-									'handle' => "capitaine-{$filename}",
+									'handle' => "johannesfse-{$filename}",
 									'src'    => get_theme_file_uri("assets/css/{$filename}.css"),
 									'path'   => get_theme_file_path("assets/css/{$filename}.css"),
 									'ver'    => filemtime(get_theme_file_path("assets/css/{$filename}.css")),
