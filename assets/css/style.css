@@ -2,6 +2,9 @@
  * custom css styles
  */
 
+ /*
+	* Global styles
+ */
  .wp-block-navigation__responsive-container.is-menu-open {
 	padding-top: var(--wp--preset--spacing--medium) !important;
 	padding-right: var(--wp--preset--spacing--medium) !important;
@@ -9,6 +12,8 @@
 	padding-left: var(--wp--preset--spacing--medium) !important;
 }
 
+footer .wp-block-button__link {
+	min-width: 140px;
  @media screen and (max-width: 1440px) {
 
 	/* header social network */
