@@ -14,6 +14,8 @@
 
 footer .wp-block-button__link {
 	min-width: 140px;
+}
+
  @media screen and (max-width: 1440px) {
 
 	/* header social network */

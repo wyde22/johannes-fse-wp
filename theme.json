@@ -20,10 +20,21 @@
       "title": "Header Search CTA"
     },
     {
-      "area": "footer",
-      "name": "footer",
-      "title": "Footer"
+      "area": "footer-contact",
+      "name": "footer-contact",
+      "title": "Footer Contact"
+    },
+    {
+      "area": "footer-signin",
+      "name": "footer-signin",
+      "title": "Footer Signin"
+    },
+    {
+      "area": "footer-contact-signin",
+      "name": "footer-contact-signin",
+      "title": "Footer Contact Signin"
     }
+
   ],
   "customTemplates": [
     {
