@@ -8,7 +8,7 @@
       "contentSize": "1200px",
       "wideSize": "1440px",
       "allowEditing": true,
-      "allowCustomContentAndWideSize": false
+      "allowCustomContentAndWideSize": true
     },
     "background": {
       "backgroundImage": true,
@@ -131,6 +131,14 @@
         "large": 2.25
       }
     },
-    "blocks": {}
+    "blocks": {
+      "core/read-more": {
+        "color": {
+          "text": true,
+          "background": true,
+          "link": true
+        }
+      }
+    }
   }
 }

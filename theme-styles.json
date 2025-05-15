@@ -54,6 +54,26 @@
           "fontSize": "var:preset|font-size|p-huge"
         }
       }
+    },
+    "blocks": {
+      "core/read-more": {
+        "color": {
+          "background": "var:preset|color|johannes-grays-100",
+          "text": "var:preset|color|johannes-grays-0"
+        },
+        "spacing": {
+          "padding": {
+            "top": "calc(0.667em + 2px)",
+            "right": "calc(1.333em + 2px)",
+            "bottom": "calc(0.667em + 2px)",
+            "left": "calc(1.333em + 2px)"
+          }
+        },
+        "typography": {
+          "fontSize": "var:preset|font-size|xs",
+          "fontWeight": "var:custom|font-weight|regular"
+        }
+      }
     }
   }
 }

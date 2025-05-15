@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Text decoration none",
+  "slug": "decorationnone",
+  "blockTypes": ["core/post-terms"],
+  "styles": {
+    "typography": {
+      "textDecoration": "none"
+    }
+  }
+}
