@@ -20,6 +20,40 @@
       "fontSize": "var:preset|font-size|p-huge",
       "fontWeight": "var:custom|font-weight|regular",
       "lineHeight": "var:custom|line-height|regular"
+    },
+    "elements": {
+      "button": {
+        "typography": {
+          "fontSize": "var:preset|font-size|xs",
+          "fontWeight": "var:custom|font-weight|regular"
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|primary",
+          "fontWeight": "var:custom|font-weight|extrabold"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var:preset|font-size|xl"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var:preset|font-size|l"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var:preset|font-size|m"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var:preset|font-size|p-huge"
+        }
+      }
     }
   }
 }
