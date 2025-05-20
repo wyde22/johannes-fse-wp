@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Bordure arrondie",
+  "slug": "rounded-border",
+  "blockTypes": ["core/post-terms"],
+  "styles": {
+    "border": {
+      "radius": "59px",
+      "width": "1px",
+      "style": "solid",
+      "color": "var(--wp--preset--color--johannes-grays-75)"
+    },
+    "spacing": {
+      "padding": {
+        "top": "var(--wp--preset--spacing--tiny)",
+        "right": "var(--wp--preset--spacing--tiny)",
+        "bottom": "var(--wp--preset--spacing--tiny)",
+        "left": "var(--wp--preset--spacing--tiny)"
+      }
+    }
+
+  }
+}

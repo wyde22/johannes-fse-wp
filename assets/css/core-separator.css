@@ -1,0 +1,4 @@
+.is-style-vertical-pipe {
+  width: 20px;
+  transform: rotate(90deg);
+}
