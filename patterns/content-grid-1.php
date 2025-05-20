@@ -1,6 +1,6 @@
 <?php
 
-/**
+	/**
    * Title: Content grid 1
    * Slug: johannesfse-content-grid-1
    * Description: Query loop with left content and buttons
