@@ -101,7 +101,7 @@ footer .wp-block-button__link {
 		margin-left: inherit;
 	}
 
-	.subpage-list-1 .is-layout-flex {
+	.subpage-list-1 .is-layout-flex, .subpage-list-2 .is-layout-flex {
 		display: block;
 	}
 
