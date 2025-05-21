@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Liste avec flèche",
+  "slug": "list-with-arrow",
+  "blockTypes": ["core/list"],
+  "styles": {
+    "css": "& {list-style-type:none;} & li{margin-bottom: var(--wp--preset--spacing--medium); position: relative; padding-right: 2.5rem;} & li::after{content: '→'; position: absolute; right: 0; top: 50%; transform: translateY(-50%);}"
+  }
+}

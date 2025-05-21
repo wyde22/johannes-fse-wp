@@ -1,0 +1,11 @@
+
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Liste sans puces",
+  "slug": "list-no-bullets",
+  "blockTypes": ["core/list"],
+  "styles": {
+    "css": "& {list-style-type:none;} & li{margin-bottom: var(--wp--preset--spacing--medium);}"
+  }
+}

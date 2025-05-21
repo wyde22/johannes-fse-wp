@@ -101,6 +101,19 @@ footer .wp-block-button__link {
 		margin-left: inherit;
 	}
 
+	.subpage-list-1 .is-layout-flex {
+		display: block;
+	}
+
+	.subpage-list-1 .wp-block-list {
+		margin-top: var(--wp--preset--spacing--large);
+		padding-left: 0;
+	}
+
+	.subpage-list-1 .wp-block-list li {
+		font-weight: bold;
+	}
+
 	/* footer */
 	footer > .wp-block-group {
 		padding-top: var(--wp--preset--spacing--large) !important;
