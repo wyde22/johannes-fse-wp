@@ -152,6 +152,10 @@ footer .wp-block-button__link {
     padding-left: var(--wp--preset--spacing--base) !important;
 	}
 
+	.image-small-1 .wp-block-columns .wp-block-column:first-child {
+		padding-right: 0 !important;
+	}
+
 	/* footer */
 	footer .wp-block-group:last-child {
 		justify-content: center;
