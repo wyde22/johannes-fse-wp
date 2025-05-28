@@ -127,6 +127,10 @@ footer .wp-block-button__link {
 		width: 100% !important;
 	}
 
+	.hero-list-article .wp-block-columns .wp-block-column:first-child {
+		padding-right: 0 !important;
+	}
+
 	/* footer */
 	footer > .wp-block-group {
 		padding-top: var(--wp--preset--spacing--large) !important;
