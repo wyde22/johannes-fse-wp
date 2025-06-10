@@ -172,6 +172,15 @@ footer .wp-block-button__link {
 		padding-right: 0 !important;
 	}
 
+	.description-1 .wp-block-columns, .description-2 .wp-block-columns {
+		flex-direction: column-reverse;
+	}
+
+	.description-1 .wp-block-columns .wp-block-column:first-child, .description-2 .wp-block-columns .wp-block-column:first-child {
+		padding-right: 0 !important;
+		padding-top: var(--wp--preset--spacing--base);
+	}
+
 	/* footer */
 	footer .wp-block-group:last-child {
 		justify-content: center;
